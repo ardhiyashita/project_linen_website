@@ -27,50 +27,117 @@
 
                 <!-- Nav Item - Tables -->
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ route('produk-list') }}">
-                        <i class="fas fa-fw fa-table"></i>
-                        <span>Linen to Receive</span></a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link" href="{{ route('produk-list') }}">
-                        <i class="fas fa-fw fa-table"></i>
-                        <span>Hotel Transaction</span></a>
-                </li>
-                
-                <li class="nav-item">
-                    <a class="nav-link" href="{{ route('produk-list') }}">
-                        <i class="fas fa-fw fa-table"></i>
-                        <span>Discard Linen</span></a>
+                    <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages"
+                        aria-expanded="true" aria-controls="collapsePages">
+                        <i class="fas fa-fw fa-folder"></i>
+                        <span>Organization Management</span>
+                    </a>
+                    <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
+                        <div class="bg-white py-2 collapse-inner rounded">
+                            <h6 class="collapse-header">Stock:</h6>
+                            <a class="collapse-item" href="">Satuan</a>
+                            <a class="collapse-item" href="">Supplier</a>
+                            <a class="collapse-item" href="">Kategori Produk</a>
+                        </div>
+                    </div>
                 </li>
 
                 <li class="nav-item">
                     <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages"
                         aria-expanded="true" aria-controls="collapsePages">
                         <i class="fas fa-fw fa-folder"></i>
-                        <span>Stock</span>
+                        <span>Hotel Management</span>
                     </a>
                     <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
                         <div class="bg-white py-2 collapse-inner rounded">
                             <h6 class="collapse-header">Stock:</h6>
-                            <a class="collapse-item" href="{{ route('satuan.index') }}">Satuan</a>
-                            <a class="collapse-item" href="#">Supplier</a>
-                            <a class="collapse-item" href="{{ route('kategori.index') }}">Kategori Produk</a>
+                            <a class="collapse-item" href="">Satuan</a>
+                            <a class="collapse-item" href="">Supplier</a>
+                            <a class="collapse-item" href="">Kategori Produk</a>
                         </div>
                     </div>
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ route('produk-list') }}">
-                        <i class="fas fa-fw fa-table"></i>
-                        <span>Billing</span></a>
+                    <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages"
+                        aria-expanded="true" aria-controls="collapsePages">
+                        <i class="fas fa-fw fa-folder"></i>
+                        <span>Linen Management</span>
+                    </a>
+                    <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
+                        <div class="bg-white py-2 collapse-inner rounded">
+                            <h6 class="collapse-header">Stock:</h6>
+                            <a class="collapse-item" href="">Satuan</a>
+                            <a class="collapse-item" href="">Supplier</a>
+                            <a class="collapse-item" href="">Kategori Produk</a>
+                        </div>
+                    </div>
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ route('produk-list') }}">
-                        <i class="fas fa-fw fa-table"></i>
-                        <span>Report</span></a>
+                    <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages"
+                        aria-expanded="true" aria-controls="collapsePages">
+                        <i class="fas fa-fw fa-folder"></i>
+                        <span>Transaction Management</span>
+                    </a>
+                    <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
+                        <div class="bg-white py-2 collapse-inner rounded">
+                            <h6 class="collapse-header">Stock:</h6>
+                            <a class="collapse-item" href="">Satuan</a>
+                            <a class="collapse-item" href="">Supplier</a>
+                            <a class="collapse-item" href="">Kategori Produk</a>
+                        </div>
+                    </div>
                 </li>
+
+                <li class="nav-item">
+                    <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages"
+                        aria-expanded="true" aria-controls="collapsePages">
+                        <i class="fas fa-fw fa-folder"></i>
+                        <span>Billing Management</span>
+                    </a>
+                    <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
+                        <div class="bg-white py-2 collapse-inner rounded">
+                            <h6 class="collapse-header">Stock:</h6>
+                            <a class="collapse-item" href="">Satuan</a>
+                            <a class="collapse-item" href="">Supplier</a>
+                            <a class="collapse-item" href="">Kategori Produk</a>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages"
+                        aria-expanded="true" aria-controls="collapsePages">
+                        <i class="fas fa-fw fa-folder"></i>
+                        <span>Preset</span>
+                    </a>
+                    <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
+                        <div class="bg-white py-2 collapse-inner rounded">
+                            <h6 class="collapse-header">Stock:</h6>
+                            <a class="collapse-item" href="">Satuan</a>
+                            <a class="collapse-item" href="">Supplier</a>
+                            <a class="collapse-item" href="">Kategori Produk</a>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages"
+                        aria-expanded="true" aria-controls="collapsePages">
+                        <i class="fas fa-fw fa-folder"></i>
+                        <span>Privilage</span>
+                    </a>
+                    <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
+                        <div class="bg-white py-2 collapse-inner rounded">
+                            <h6 class="collapse-header">Stock:</h6>
+                            <a class="collapse-item" href="">Satuan</a>
+                            <a class="collapse-item" href="">Supplier</a>
+                            <a class="collapse-item" href="">Kategori Produk</a>
+                        </div>
+                    </div>
+                </li>
+
 
                 <!-- Nav Item - Pages Collapse Menu
                 <li class="nav-item">
@@ -82,9 +149,9 @@
                     <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
                         <div class="bg-white py-2 collapse-inner rounded">
                             <h6 class="collapse-header">Master Data:</h6>
-                            <a class="collapse-item" href="{{ route('satuan.index') }}">Satuan</a>
-                            <a class="collapse-item" href="#">Supplier</a>
-                            <a class="collapse-item" href="{{ route('kategori.index') }}">Kategori Produk</a>
+                            <a class="collapse-item" href="">Satuan</a>
+                            <a class="collapse-item" href="">Supplier</a>
+                            <a class="collapse-item" href="">Kategori Produk</a>
                         </div>
                     </div>
                 </li> -->
@@ -94,11 +161,6 @@
                 <!-- <hr class="sidebar-divider"> -->
 
                 <!-- Nav Item - Charts -->
-                <li class="nav-item">
-                    <a class="nav-link" href="{{ route('user.index') }}">
-                        <i class="fas fa-fw fa-chart-area"></i>
-                        <span>User Management</span></a>
-                </li>
 
             @else
                 <li class="nav-item @if(\Request::segment(1)  == 'penjualan') active @endif">
