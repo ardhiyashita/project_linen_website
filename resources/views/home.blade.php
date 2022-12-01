@@ -1,6 +1,6 @@
 @extends('layouts/master')
 
-@section('title', 'Hotel')
+@section('title', 'Management System')
 
 @section('content')
 <div class="row">

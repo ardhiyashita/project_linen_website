@@ -1,6 +1,6 @@
 @extends('layouts/master')
 
-@section('title', 'Produk List')
+@section('title', 'Transaction List')
 
 @section('heading')
     

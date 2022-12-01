@@ -1,6 +1,6 @@
 @extends('layouts/master')
 
-@section('title', 'Tambah Produk')
+@section('title', 'Transaction Add')
 
 @section('heading')
     
